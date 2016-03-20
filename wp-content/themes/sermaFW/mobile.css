@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner,
+.wrapper.menu{display:none;}
+
+.wrapper .content{width:98%; margin:auto;}
+
+.sobre p{width:100%;margin-right:0px !important;}
+.sobre img{width:100%;max-width:500px;}
+
+.nt-interna .listagem-nt .bloco-nt,
+.nt-interna .listagem-nt{width:100%;}
+
+.nt-interna .listagem-nt .bloco-nt img,
+.estudos-interna img{width:100%;max-width:300px;}
+.imagem-interna-nt{width:100%;max-width:849px;}
+
+.estudos-interna p{padding-left:0;}
+
+.contato .box-contact,
+.contato .box-contact input[type="text"], .contato .box-contact input[type="email"],
+.contato .box-contact textarea{width:100%;}
+
+.wrapper.footer .content .menu-principal-container ul li{float:none;}
+
+#boxes .window {position:absolute;width:95%;min-height:618px;height:auto;display:none;z-index:9998;background-color:#fff;border-top:15px solid #ef492f; border-bottom:15px solid #ef492f;border-left:9px solid #ef492f;border-right:9px solid #ef492f;}
+#boxes .window iframe{width:95%;min-height:618px;}
+.light-close{    float: right;    display: table;    position: absolute;    font-family: arial;    font-weight: 900;    font-size: 37px;    color: #fcdc03;    margin-top: -45px;    margin-left: 90%;cursor:pointer;}
